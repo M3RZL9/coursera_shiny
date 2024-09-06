@@ -1,0 +1,32 @@
+---
+title: "Iris Dataset Explorer"
+author: "Merana"
+date: "2024-09-06"
+output: ioslides_presentation
+---
+
+## Introduction
+
+This app allows users to explore the famous Iris dataset interactively.
+
+## Features
+
+-   Choose species (Setosa, Versicolor, Virginica)
+-   Select X and Y axis variables
+-   Choose plot type (scatter, boxplot)
+
+## Demo
+
+```{r}
+plot(iris$Sepal.Length, iris$Sepal.Width, col = iris$Species)
+```
+
+## Benefits
+
+-   Easy to use
+-   Visually appealing data exploration
+-   Interactive filtering
+
+## Conclusion
+
+[Try the App!](https://merana-tech.shinyapps.io/shiny_app/)
